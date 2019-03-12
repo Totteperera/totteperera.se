@@ -1,0 +1,58 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    box-shadow: 0px 2px 16px -8px #111;
+    background-color: #fff;
+
+    .spanCompact {
+        display: none;
+    }
+
+    &.compact {
+        .spanCompact {
+            display: inline-block;
+        }
+
+        .inner {
+            padding: 1rem 0;
+            max-width: 40rem;
+        }
+
+        .mainNavigation {
+            display: none;
+        }
+    }
+
+    .inner {
+        width: 100%;
+        max-width: 50rem;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        height: 100%;
+        transition: all 250ms;
+        padding: 1.5rem 0;
+    }
+
+    .mainNavigation {
+        margin-bottom: 0;
+        margin-left: auto;
+        list-style: none;
+        float: right;
+        transition: all 250ms;
+
+        & > li {
+            margin-bottom: 0;
+        }
+    }
+
+    .logo {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        display: inline-block;
+    }
+}
