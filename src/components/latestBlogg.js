@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
-import { rhythm } from "../utils/typography"
-import BloggEntry from "./bloggEntry"
+import BlogEntry from "./blogEntry"
 
 function LatestBlogg() {
     
@@ -13,7 +12,7 @@ function LatestBlogg() {
                 return (
                     <div>
                         <h2 style={{textAlign: 'center'}}>Latest blog post!</h2>
-                        <BloggEntry data={post}/>
+                        <BlogEntry data={post}/>
                     </div>
                 )
             }}
@@ -36,7 +35,7 @@ export const latestBloggQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
+           
           }
         }
       }

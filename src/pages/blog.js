@@ -1,11 +1,9 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import BloggEntry from "../components/bloggEntry"
+import BlogEntry from "../components/blogEntry"
 
 
 class BlogLanding extends React.Component {
@@ -22,7 +20,7 @@ class BlogLanding extends React.Component {
         />
         {posts.map(({ node }) => {
           return (
-            <BloggEntry data={node} key={node.fields.slug}/>
+            <BlogEntry data={node} key={node.fields.slug}/>
           )
         })}
       </Layout>
@@ -49,7 +47,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
+            
           }
         }
       }

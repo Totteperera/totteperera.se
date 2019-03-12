@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
 
-class BloggEntry extends React.Component {
+class BlogEntry extends React.Component {
 
   render() {
     const { data } = this.props;
@@ -31,4 +31,4 @@ class BloggEntry extends React.Component {
   }
 }
 
-export default BloggEntry
+export default BlogEntry
