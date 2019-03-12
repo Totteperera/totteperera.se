@@ -5,6 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import BloggEntry from "../components/bloggEntry"
+
 
 class BlogLanding extends React.Component {
   render() {
@@ -19,25 +21,8 @@ class BlogLanding extends React.Component {
           keywords={[`blog`, `gatsby`, `totte`, `perera`]}
         />
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
+            <BloggEntry data={node} key={node.fields.slug}/>
           )
         })}
       </Layout>

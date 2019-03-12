@@ -22,11 +22,8 @@ class Header extends React.Component {
 
             if(position > 50) {
                 document.getElementById('header').classList.add(styled.compact)
-                // this.containerRef.current.classList.add('compact')
             } else {
                 document.getElementById('header').classList.remove(styled.compact)
-
-                // this.containerRef.current.classList.remove('compact')
             }
         })
     }

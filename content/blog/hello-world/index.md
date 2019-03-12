@@ -1,21 +1,17 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2019-03-12T10:58:03.284Z"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Hello friends!
 
-I'm sure I'll write a lot more interesting things in the future.
+I've always wanted my own website, and now I got one, thanks to me.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+I created it using GatsbyJS and React, mostly for the purpose of learning a new technology.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Why did i create a blog? I don't know, maybe to do something outside my comfort zone.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+
+I'll leave you with a clip of Joe Rogan talking to Roe Jogan.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-xY_D8SMNtE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

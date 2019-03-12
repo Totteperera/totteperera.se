@@ -1,4 +1,8 @@
 .content {
     max-width: 40rem;
     margin: 7rem auto;
+
+    @media (max-width: 670px) {
+        padding: 0 1rem;
+    }
   }

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import LatestBlogg from "../components/latestBlogg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -16,9 +16,8 @@ class BlogIndex extends React.Component {
           title="Welcome"
           keywords={[`blog`, `totte`, `perera`, `gatsby`]}
         />
-        
-        <h3>Welcome to my page</h3>
-        <p>Stay awesome</p>
+
+        <LatestBlogg />
       </Layout>
     )
   }
