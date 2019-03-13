@@ -1,3 +1,4 @@
+const Timer = require(`./src/scripts/Timer`)
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -63,4 +64,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.onPostBootstrap = () => {
+  console.log('onPostBuild');
+  Timer();
 }
