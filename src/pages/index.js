@@ -5,6 +5,7 @@ import LatestBlogg from "../components/latestBlogg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Stocks from "../components/stocks"
+import Hero from "../components/hero"
 
 
 class BlogIndex extends React.Component {
@@ -19,7 +20,7 @@ class BlogIndex extends React.Component {
           title="Welcome"
           keywords={[`blog`, `totte`, `perera`, `gatsby`]}
         />
-        
+        <Hero />
         <Stocks />
         <LatestBlogg />
       </Layout>
