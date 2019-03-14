@@ -25,7 +25,10 @@ export default LatestBlogg
 
 export const latestBloggQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit:1) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC },
+      filter: {fileAbsolutePath:  { regex:"/content/blog/" }},
+      limit:1) {
       edges {
         node {
           excerpt

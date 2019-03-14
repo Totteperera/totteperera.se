@@ -1,6 +1,6 @@
 const Scrape = require("./AvanzaScraper")
 
-const TIME_CONSTANT = 1000 * 60 * 30;
+const TIME_CONSTANT = 1000 * 60 * 1;
 
 function SetTimers () {
     console.log('set avanza timer')

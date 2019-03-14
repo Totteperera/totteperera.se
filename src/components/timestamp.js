@@ -3,7 +3,7 @@ import moment from "moment"
 
 const TimeStamp = ({ date }) => {
     const minutesDiff = moment().diff(moment(date), 'minutes')
-    const isRecent = minutesDiff < 1
+    const isRecent = minutesDiff < 2
     const dateString = isRecent ? 'Just now' : `${minutesDiff} minutes ago`
 
     return (

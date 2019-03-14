@@ -30,9 +30,6 @@ async function Scrape() {
         fs.writeFileSync(FILEPATH, JSON.stringify(parsedContent), function (err) {
             if (err) throw err;
         })
-
-        page.close();
-        browser.close();
     
     } catch (error) {
         console.log(error);
