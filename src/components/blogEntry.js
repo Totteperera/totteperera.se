@@ -7,7 +7,6 @@ class BlogEntry extends React.Component {
   render() {
     const { data } = this.props;
     const title = data.frontmatter.title || data.fields.slug
-    console.log(data.fields.slug)
     return (
       <div>
         <h3

@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby";
+import Timestamp from "./timestamp"
 
 
 function Stocks() {
@@ -8,9 +9,6 @@ function Stocks() {
         <StaticQuery 
             query={stocksQuery}
             render={data => {
-                console.log(data.file.childAssetsJson.stocks)
-                console.log(data.file.childAssetsJson.stocks.map((node => node
-                )))
                 return (
                     <div>
                         <h2 style={{textAlign: 'center'}}>My stock portfolio</h2>
@@ -19,7 +17,7 @@ function Stocks() {
                                 <tr>
                                     <th>Name</th>
                                     <th>Price</th>
-                                    <th>Trend</th>
+                                    <th>Today</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -32,6 +30,7 @@ function Stocks() {
                                 ))}
                             </tbody>
                         </table>
+                        <small>Last updated: <Timestamp date={data.file.modifiedTime} /></small>
                     </div>
             
                 )
@@ -46,6 +45,7 @@ export default Stocks
 const stocksQuery = graphql`
     query StocksQuery {
         file(absolutePath: { regex: "/stocks.json/"}) {
+            modifiedTime
             childAssetsJson {
               stocks {
                 url
