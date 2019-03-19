@@ -42,7 +42,7 @@ class Stocks extends React.Component {
 
     fetchStocks = () =>  {
         axios
-        .get(`http://188.166.95.21/stocks`, {
+        .get(`https://api.totteperera.se/stocks`, {
             
                 headers: {"Access-Control-Allow-Origin": "*"}
             
