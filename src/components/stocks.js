@@ -21,16 +21,16 @@ function Stocks() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {data.file.childAssetsJson.stocks.map(( node => 
-                                    <tr key={node.name}>
-                                        <td><a href={node.url} target='_blank' style={{cursor: 'pointer'}}>{node.name}</a></td>
-                                        <td>{node.latest} kr</td>
-                                        <td>{node.trendingToday}</td>
+                                {data.allStocks.edges[0].node.Stocks.map(( stock => 
+                                    <tr key={stock.name}>
+                                        <td><a href={stock.url} target='_blank' rel='noopener noreferrer' style={{cursor: 'pointer'}}>{stock.name}</a></td>
+                                        <td>{stock.price} kr</td>
+                                        <td>{stock.today}</td>
                                     </tr>
                                 ))}
                             </tbody>
                         </table>
-                        <small>Last updated: <Timestamp date={data.file.modifiedTime} /></small>
+                        <small>Last updated: <Timestamp date={data.allStocks.edges[0].node.lastUpdated} /></small>
                     </div>
             
                 )
@@ -44,16 +44,18 @@ export default Stocks
 
 const stocksQuery = graphql`
     query StocksQuery {
-        file(absolutePath: { regex: "/stocks.json/"}) {
-            modifiedTime
-            childAssetsJson {
-              stocks {
-                url
-                name
-                latest
-                trendingToday
+        allStocks {
+            edges {
+              node {
+                lastUpdated
+                Stocks {
+                  url
+                  name
+                  price
+                  today
+                }
               }
             }
-        }
+          }
     }
 ` 
