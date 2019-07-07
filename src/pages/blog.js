@@ -15,7 +15,7 @@ class BlogLanding extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="All posts"
+          title="Totte Perera blog"
           keywords={[`blog`, `gatsby`, `totte`, `perera`]}
         />
         {posts.map(({ node }) => {

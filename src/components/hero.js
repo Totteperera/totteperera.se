@@ -14,11 +14,8 @@ function Hero () {
                             fluid={data.Image.childImageSharp.fluid}
                         />
                         <small>Thailand 2018</small>
-                        <p style={{marginTop: '10px'}}>Welcome to my page! My name is Totte Perera, some people know me as Marco Perera.
-                            I'm using my page to gather
-                            information about myself but also to explore some front end techniques. Once in a while I'll write a
-                            blog post. Have a look around and hit me up on any
-                            social media if you have any questions or just want to talk.
+                        <p style={{marginTop: '10px'}}>Marco Totte Perera. 26 y/o fullstack C# .Net developer who loves traveling. Back in Sweden after 6 months
+                        traveling solo in South East Asia and Europe while working at the same time. Send me a message on my <a href="https://www.linkedin.com/in/totte-perera-9a907b112/">Linkedin</a> if you have any questions.  
                         </p>
                     </div>
                 )

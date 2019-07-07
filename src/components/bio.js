@@ -38,8 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Stockholm,
-               but at the moment traveling in Asia.
+              Written by <strong>{author}</strong> who lives and works in Stockholm.
             </p>
           </div>
         )
