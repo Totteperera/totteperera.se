@@ -16,11 +16,11 @@ I have implemented integrations on Azure servicebus and more simple ones over FT
 together with Jquery and Sass. Since the start of 2019 I've been working a bit with ReactJS and ES6.
 
 <b>Some of my projects:</b> <br/>
-<a href="smdlogistics.se">smdlogistics.se</a>. Lead developer, integration with M3 Erp on Azure servicebus. <br/>
-<a href="www.auralight.com">auralight.com</a>. Lead developer, integration with Monitor Erp over FTP. Front-end in .NET MVC and ReactJS. <br/>
-<a href="www.ctek.com">ctek.com</a>. Integration with Pyramid Erp over Azure Servicebus. Helped with some front-end and enabling e-commerce with Klarna checkout. <br/>
-<a href="www.jollyroom.se">jollyroom.se</a>. Worked close to the customers developing new features. <br/>
-<a href="www.bevego.se">bevego.se</a>. Developed new features for Bevego admins. <br/>
+<a href="https://smdlogistics.se">smdlogistics.se</a>. Lead developer, integration with M3 Erp on Azure servicebus. <br/>
+<a href="https://www.auralight.com">auralight.com</a>. Lead developer, integration with Monitor Erp over FTP. Front-end in .NET MVC and ReactJS. <br/>
+<a href="https://www.ctek.com">ctek.com</a>. Integration with Pyramid Erp over Azure Servicebus. Helped with some front-end and enabling e-commerce with Klarna checkout. <br/>
+<a href="https://www.jollyroom.se">jollyroom.se</a>. Worked close to the customers developing new features. <br/>
+<a href="https://www.bevego.se">bevego.se</a>. Developed new features for Bevego admins. <br/>
 #### Dfind IT
 ```
 02/2016 - 01/2017
