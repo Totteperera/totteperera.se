@@ -27,6 +27,15 @@ together with Jquery and Sass. Since the start of 2019 I've been working a bit w
 ```
 Working for different companies such as Sweco, Excanto and Vimla as a support technician.
 
+# Personal qualities
+---
+* Problem solver
+* Precise
+* Leader
+* Driven
+* Fast learner
+* Collaborative
+
 # Education
 ---
 #### Bachelor of Science in Computer Engineering
@@ -52,8 +61,19 @@ Nynäshamns Gymnasium (High school)
 * Git
 * Tfs
 
+# Goals
+---
+#### Short term
+* Become more skilled in backend development and technical architecture.
+* Become more efficient in my communication.
+
+#### Long term
+* Run my own business.
+
 # Other
 ---
 Fluent in English and Swedish.
+
+Drivers license
 
 Started working since the year of 14 on school breaks.
