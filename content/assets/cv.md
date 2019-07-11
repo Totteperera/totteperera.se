@@ -50,6 +50,7 @@ Nynäshamns Gymnasium (High school)
 
 # Skills
 ---
+* Customer oriented
 * .Net
 * C#
 * JavaScript
