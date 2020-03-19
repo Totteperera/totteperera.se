@@ -6,9 +6,18 @@ date: "2019-07-07T10:58:03.284Z"
 # Experience
 ---
 
+#### MTP Consulting AB
+```
+12/2019 - present
+```
+MTP Consulting is owned by me, and I'm working as a freelance C# .Net developer.
+
+<b>Projects:</b> <br/>
+<a href="https://verbal.se">Verbal</a>. Working with their internal system mainly with software maintenance, but also some new development.
+
 #### Columbus Global (former iStone)
 ```
-01/2017 - present
+01/2017 - 12/2019
 ```
 Fullstack C# .Net developer with focus on backend. Developing e-commerce solutions on the <a href="https://www.litium.se/">Litium platform</a>.
 I have experience in developing both simple B2C sites and more complex B2B sites. 
@@ -48,6 +57,11 @@ Linköping University
 Nynäshamns Gymnasium (High school)
 ```
 
+#### International deck officer class VIII
+```
+Sjösportsskolan
+```
+
 # Skills
 ---
 * Customer oriented
@@ -61,6 +75,7 @@ Nynäshamns Gymnasium (High school)
 * Scrum
 * Git
 * Tfs
+* SQL
 
 # Goals
 ---
@@ -69,7 +84,7 @@ Nynäshamns Gymnasium (High school)
 * Become more efficient in my communication.
 
 #### Long term
-* Run my own business.
+* Grow my own business.
 
 # Other
 ---

@@ -3,7 +3,7 @@ module.exports = {
     title: `Totte Perera`,
     author: `Totte Perera`,
     description: `My home page`,
-    siteUrl: `totteperera.se`,
+    siteUrl: `https://totteperera.se`,
     social: {
       twitter: `totteperera`,
     },
