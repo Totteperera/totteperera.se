@@ -13,7 +13,16 @@ date: "2019-07-07T10:58:03.284Z"
 MTP Consulting is owned by me, and I'm working as a freelance C# .Net developer.
 
 <b>Projects:</b> <br/>
-<a href="https://verbal.se">Verbal</a>. Working with their internal system mainly with software maintenance, but also some new development.
+<a href="https://verbal.se">Verbal</a>. WPF application made in .Net Framework 4.0. The system is used in their daily work. And a web application made in .Net Framwork MVC. Some techniques used in the project:
+
+* SQL
+* Prism
+* RabbitMQ
+* XAML
+* MVC
+* JQuery
+* Linq
+* Teamcity
 
 #### Columbus Global (former iStone)
 ```
