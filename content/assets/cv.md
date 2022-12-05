@@ -12,7 +12,15 @@ date: "2019-07-07T10:58:03.284Z"
 ```
 MTP Consulting is owned by me, and I'm working as a freelance C# .Net developer.
 
-<b>Projects:</b> <br/>
+<b>Some projects:</b> <br/>
+
+<a href="https://a-mobler.no">A-Møbler</a> E-commerce solution built on top of <a href="https://www.litium.se/">Litium</a>. A-Møbler was a fun project to work with since they have a relative complex solution, that didn't 100% map to Litium, which meant we had to make some customizations. I mostly helped with their integration between their E-com and ERP, but also implemented the price calculation for their product configurator.
+
+* SQL
+* Azure devops
+* .NET 6
+* Integrations
+
 <a href="https://verbal.se">Verbal</a>. WPF application made in .Net Framework 4.0. The system is used in their daily work. And a web application made in .Net Framwork MVC. Some techniques used in the project:
 
 * SQL
@@ -21,7 +29,6 @@ MTP Consulting is owned by me, and I'm working as a freelance C# .Net developer.
 * XAML
 * MVC
 * JQuery
-* Linq
 * Teamcity
 
 #### Columbus Global (former iStone)
@@ -77,14 +84,17 @@ Sjösportsskolan
 * .Net
 * C#
 * JavaScript
-* Azure
-* Sass
+* Azure devops
 * Html
 * Litium
 * Scrum
 * Git
-* Tfs
 * SQL
+* Domain driven design
+* Event sourcing
+* Event driven architechture
+* Web api
+* CQRS
 
 # Goals
 ---
@@ -94,6 +104,9 @@ Sjösportsskolan
 
 #### Long term
 * Grow my own business.
+
+#### Current project
+* Building a mini ERP system based on Event sourcing and CQRS
 
 # Other
 ---

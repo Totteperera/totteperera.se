@@ -47,7 +47,7 @@ class Header extends React.Component {
                     </h1>
 
                     <ul className={styled.mainNavigation}>
-                        <ListLink to="/blog/">Blog</ListLink>
+                        {/* <ListLink to="/blog/">Blog</ListLink> */}
                         <ListLink to="/cv/">Cv</ListLink>
                         <ListLinkExternal to="https://github.com/Totteperera">Github</ListLinkExternal>
                         <ListLinkExternal to="https://www.linkedin.com/in/totte-perera-9a907b112/">Linkedin</ListLinkExternal>

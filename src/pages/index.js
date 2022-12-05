@@ -21,8 +21,8 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `totte`, `perera`, `gatsby`]}
         />
         <Hero />
-        <Stocks />
-        <LatestBlogg />
+        {/* <Stocks /> */}
+        {/* <LatestBlogg /> */}
       </Layout>
     )
   }
