@@ -113,5 +113,3 @@ Sjösportsskolan
 Fluent in English and Swedish.
 
 Drivers license
-
-Started working since the year of 14 on school breaks.
