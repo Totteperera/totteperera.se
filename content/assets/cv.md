@@ -20,6 +20,7 @@ MTP Consulting is owned by me, and I'm working as a freelance C# .Net developer.
 * Azure devops
 * .NET 6
 * Integrations
+* Unit testing
 
 <a href="https://verbal.se">Verbal</a>. WPF application made in .Net Framework 4.0. The system is used in their daily work. And a web application made in .Net Framwork MVC. Some techniques used in the project:
 
@@ -95,6 +96,8 @@ Sjösportsskolan
 * Event driven architechture
 * Web api
 * CQRS
+* Test Driven Development
+* Unit Testing
 
 # Goals
 ---
