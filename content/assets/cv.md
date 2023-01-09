@@ -81,6 +81,14 @@ Nynäshamns Gymnasium (High school)
 Sjösportsskolan
 ```
 
+# Certificates
+---
+
+#### Machine learning @ Coursera
+```
+Supervised Machine Learning: Regression and Classification
+```
+
 # Skills
 ---
 * Customer oriented
@@ -113,7 +121,7 @@ Sjösportsskolan
 * Grow my own business.
 
 #### Current project
-* Building a mini ERP system based on Event sourcing and CQRS
+* Exploring Event sourcing and CQRS
 
 # Other
 ---
