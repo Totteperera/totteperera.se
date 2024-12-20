@@ -3,6 +3,13 @@ title: Curriculum Vitae
 date: "2024-12-20T10:58:03.284Z"
 ---
 
+### Totte Perera
+---
+
+**Born:** February 22, 1993
+
+**Location:** Remote, world
+
 # Experience
 ---
 
